@@ -9,7 +9,7 @@ def sign(cookie):
     headers = {
         "Cookie": cookie,
         "ContentType": "text/html;charset=gbk",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
     }
     requests.session().put(
         "https://www.52pojie.cn/home.php?mod=task&do=apply&id=2", headers=headers
